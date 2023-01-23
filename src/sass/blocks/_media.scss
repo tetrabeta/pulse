@@ -1,0 +1,80 @@
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 0 10px;
+    }
+    .header {
+        display: block;
+        margin: 0 auto;
+        &__contacts {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin: 0 10px;}
+        &__phone{
+            font-size: 14px;
+            margin: 0 16px;}
+            }
+    .button {
+        font-size: 11px;
+        width: 160px;
+        height: 26px;
+    }
+    .promo {
+        &__header {
+            font-size: 24px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons {
+            display: block;
+            margin: 0  auto;
+        }
+        &__icon {
+            margin-top: 10px;
+        }
+    }
+    .advant__wrapper {
+        display: block;
+    }
+    .catalog {
+        padding-top: 20px;
+        &__tabs {
+            flex-wrap: wrap;
+        }
+        &__tab {
+            margin: 5px;
+        }
+    }
+    .review {
+        &__content {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__img {
+            margin: 0 0 10px 0;
+        }
+        &__text {
+            padding: 0 10px 0 10px;
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .footer {
+        &__info {
+            width: 75%;
+            padding: 15px;
+        }
+        &__adress {
+            font-size: 11px;
+        }
+        &__phone {
+            margin-top: 10px;
+            font-size: 11px;
+        }
+
+    }
+}

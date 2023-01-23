@@ -1,0 +1,37 @@
+.review {
+    &__h2 {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &__wrapper {
+        margin-bottom: 50px;;
+    }
+    &__content {
+        display: flex;
+        margin-top: 60px;
+    }
+    &__img {
+        margin-right: 60px;
+        width: 169px;
+        height: 169px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__maraphone {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+        margin-top: 10px;
+    }
+}
